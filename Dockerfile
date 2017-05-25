@@ -1,6 +1,6 @@
 FROM alpine:3.5
 
-ARG FFMPEG_VERSION=3.3
+ARG FFMPEG_VERSION=3.3.1
 
 RUN apk update && \
     apk upgrade && \
